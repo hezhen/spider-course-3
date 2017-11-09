@@ -1,0 +1,12 @@
+[INFO  - 2017-03-23T14:15:56.455Z] GhostDriver - Main - running on port 57650
+[INFO  - 2017-03-23T14:15:57.042Z] Session [3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36","webSecurityEnabled":true}
+[INFO  - 2017-03-23T14:15:57.042Z] Session [3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc] - page.customHeaders:  - {}
+[INFO  - 2017-03-23T14:15:57.042Z] Session [3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"2.1.1","driverName":"ghostdriver","driverVersion":"1.2.0","platform":"mac-unknown-64bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"},"phantomjs.page.settings.userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/29.0.1547.57 Safari/537.36"}
+[INFO  - 2017-03-23T14:15:57.042Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc
+[ERROR - 2017-03-23T14:15:59.170Z] Session [3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc] - page.onError - msg: TypeError: undefined is not a constructor (evaluating '_.error.push([errorMessage, error])')
+
+  phantomjs://platform/console++.js:263 in error
+[ERROR - 2017-03-23T14:15:59.170Z] Session [3b9731d0-0fd3-11e7-b5d6-1f0b20b9a9bc] - page.onError - stack:
+  _cbError (https://passport.weibo.com/js/visitor/mini_original.js?v=20161116:1057)
+
+  phantomjs://platform/console++.js:263 in error
