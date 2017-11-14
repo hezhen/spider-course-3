@@ -45,10 +45,10 @@ http://python.dzone.com/articles/python-testing-phantomjs
 # HBASE
 -------------------------------------------------------------------------------
 
-###hbase download
+### hbase download
 http://mirror.bit.edu.cn/apache/hbase/1.3.0/hbase-1.3.0-bin.tar.gz
 
-###hadoop
+### hadoop
 http://mirror.bit.edu.cn/apache/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 
 hbase thrift start
