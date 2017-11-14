@@ -1,26 +1,24 @@
-# spider-course-3
-
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 # Install Phantomjs
-------------------------------------------------------------------------------------
-# Install NodeJS first
+-------------------------------------------------------------------------------
+### Install NodeJS first
 yum install nodejs
 
-# change NPM to use taobao repository
+### change NPM to use taobao repository
 $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
-# Using Node's package manager install phantomjs: 
+### Using Node's package manager install phantomjs: 
 npm -g install phantomjs-prebuilt
 
-# Install selenium (in your virtualenv, if you are using that)
+### Install selenium (in your virtualenv, if you are using that)
 pip install selenium
 
-# add PhantomJS home to PATH
+### add PhantomJS home to PATH
 vim ~/.profile
 PHANTOMJS_HOME=/path/to/phantomjs
 PATH=PHANTOMJS_HOME/bin:$PATH
 
-# After installation, you may use phantom as simple as:
+### After installation, you may use phantom as simple as:
 
 from selenium import webdriver
 
@@ -43,25 +41,25 @@ http://selenium-python.readthedocs.org/en/latest/api.html
 How do I set a proxy for phantomjs/ghostdriver in python webdriver?
 http://python.dzone.com/articles/python-testing-phantomjs
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 # HBASE
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 
-hbase download
+###hbase download
 http://mirror.bit.edu.cn/apache/hbase/1.3.0/hbase-1.3.0-bin.tar.gz
 
-hadoop
+###hadoop
 http://mirror.bit.edu.cn/apache/hadoop/common/hadoop-2.7.3/hadoop-2.7.3.tar.gz
 
 hbase thrift start
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 # Install Bloom Filter
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 git clone https://github.com/axiak/pybloomfiltermmap.git
 python setup.py install
 
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 # Install Murmurhash Bitarray lxml
-------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------
 pip install murmurhash3 bitarray lxml
