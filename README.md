@@ -8,7 +8,7 @@ yum install nodejs
 $ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 ### Using Node's package manager install phantomjs: 
-npm -g install phantomjs-prebuilt
+cnpm -g install phantomjs-prebuilt
 
 ### Install selenium (in your virtualenv, if you are using that)
 pip install selenium
