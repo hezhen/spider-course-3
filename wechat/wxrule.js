@@ -55,7 +55,8 @@ module.exports = {
                 return new Promise(function (resolve, reject) {
                     try { //防止报错退出程序
                         var post_data = JSON.stringify({
-                            'url': requestDetail.url
+                            'url': requestDetail.url,
+                            'body': responseDetail.response.body.toString()
                         });
                         logger.write("post data to server -- home\r\n");
                         postData(post_data, 'historyhome', function (chunk) {
@@ -86,8 +87,10 @@ module.exports = {
         } else if (/mp\/profile_ext\?action=getmsg/i.test(requestDetail.url)) {
             logger.write('matched: ' + requestDetail.url + '\r\n');
             if (responseDetail.response.toString() !== "") {
+                logger.write(responseDetail.response.body.toString());
                 var post_data = JSON.stringify({
-                    'request': requestDetail
+                    'url': requestDetail.url,
+                    'body': responseDetail.response.body.toString()
                 });
                 logger.write("post data to server -- ext");
                 postData(post_data, 'msgext', function (chunk) {
