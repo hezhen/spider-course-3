@@ -89,7 +89,8 @@ module.exports = {
             if (responseDetail.response.toString() !== "") {
                 logger.write(responseDetail.response.body.toString());
                 var post_data = JSON.stringify({
-                    'request': responseDetail.response.body.toString()
+                    'url': requestDetail.url,
+                    'body': responseDetail.response.body.toString()
                 });
                 logger.write("post data to server -- ext");
                 postData(post_data, 'msgext', function (chunk) {
