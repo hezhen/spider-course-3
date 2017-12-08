@@ -1,0 +1,158 @@
+ul#api-list,
+ul#api-list li {
+    /* Setting a common base */
+    margin: 1px;
+}
+
+ul#api-list li {
+    font-size: 15px;
+    border-bottom: 1px solid #D0D5D6;
+    padding:5px;
+    width:95%;
+    display: block;
+    overflow: hidden;
+}
+#api-list-apiname{
+
+	float:left;
+	word-wrap: break-word;
+}
+#api-list-middle{
+	color: #bbb; 
+	
+	float:left; 
+	font-size: 13px;
+}
+#api-list-right{
+	color: #bbb; 
+	float:right; 
+	font-size: 13px;
+}
+
+/*end of api list*/
+
+#login a:link{
+	text-decoration: none;
+}
+
+div#topbar{
+    padding: 2px 5px;
+    left:0;
+    right:0;
+    position:absolute;
+}
+
+#topbar_left{
+    bottom:0;
+    left:0;
+    padding-left:5px;
+    position:absolute;
+    top:0;
+    width:350px;
+    font-size:13px;
+    font-family:'Lucida Grande', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+#topbar_right{
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    margin-left:351px;
+    position:absolute;
+    font-size:14px;
+}
+.bar_link{
+    font-family: Consolas; font-size: 15px; font-color: blue;
+}
+
+div#both {
+    bottom:0;
+    left:0;
+    position:absolute;
+    right:0;
+    top:100px;
+    width:100%;
+    border-top-color:#CECECE;
+    border-top-style:solid;
+    border-top-width:1px;
+    display:none;
+}
+
+div#sidebar {
+    bottom:0;
+    left:0;
+    overflow:auto;
+    padding:0;
+    position:absolute;
+    top:0;
+    width:350px;
+    border-right-color:#CECECE;
+    border-right-style:solid;
+    border-right-width:1px;
+    font-size:13px;
+    font-family:'Lucida Grande', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+div#jstree_div{
+    display:none;
+}
+
+
+a:link {
+    color:#3366BB;
+}
+
+div#codemain {
+    top:0;
+    left:0;
+    right: 0;
+    bottom:0;
+    margin-left:351px;
+    padding: 5px 10px;
+    position:absolute;
+    overflow:auto;
+    font-size:14px;
+}
+
+.code{
+    font-family: monospace;
+    font-size: 14px;
+}
+
+.comment{
+    color:green;
+}
+
+.keyword{
+    color:#7f0055;
+    font-weight:bold;
+}
+
+.literal{
+    color: blue;
+}
+
+.tab{
+    margin-left: 15px;
+
+}
+
+.line{
+    display: block;
+    white-space: pre !important;
+}
+
+#outline ul{
+    padding: 5px 5px;
+}
+
+#outlinebak ul li.public {
+    background:url('./includes/images/public.gif') 0 0 no-repeat;
+    list-style-type:none;
+    margin-bottom:4px;
+    margin-left:0px;
+    padding:0 0 0 20px;
+}
+
+
