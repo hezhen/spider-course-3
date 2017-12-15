@@ -1,6 +1,0 @@
-{
-    "url": "http://exemple.com/tweet/", 
-    "expected": {
-        "tweets": 2
-    }
-}
