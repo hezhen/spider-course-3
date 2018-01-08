@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import urllib2
 import httplib
 import re
@@ -56,7 +58,7 @@ def download_city_notes(id):
                 continue
 
 # 检查用于存储网页文件夹是否存在，不存在则创建
-if not os.path.exits(dirname):
+if not os.path.exists(dirname):
     os.makedirs(dirname)
 
 try:
